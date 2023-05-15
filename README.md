@@ -1,6 +1,6 @@
-# Image Stegnography
+# Steganocrypt
 
-This Stegnography is a combination of LSB-Steganography as well as AES encryption along with DNA encoding. In this project we first encoded the plaintext to its corresponding DNA bases and then compressed the result using g-zip and converted it to a ciphertext using AES-256 encryption technology.
+Steganocrypt is a combination of LSB-Steganography as well as AES encryption along with DNA encoding. In this project we first encoded the plaintext to its corresponding DNA bases and then compressed the result using g-zip and converted it to a ciphertext using AES-256 encryption technology.
 ## Note
 The key will be generated to a USB-drive which will then be required for decrypting the message
 

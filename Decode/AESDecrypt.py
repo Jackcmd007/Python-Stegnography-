@@ -3,7 +3,8 @@ import os
 
 def Decrypt():
     input_file = 'encrypted.bin'
-    key_path = os.path.join('..', 'Key', 'my_key.bin')
+    key_path = 'C:/Users/justi/OneDrive/Desktop/Steganocrypt-master/Key/my_key.bin'
+
 
     with open(key_path, 'rb') as f:
         key = f.read()

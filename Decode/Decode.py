@@ -34,7 +34,7 @@ def Decode(src):
         print("No Hidden Message Found")
     return msg
 
-output_loc = '..\\Output_image\\steg.png'
+output_loc = 'C:/Users/justi/OneDrive/Desktop/Steganocrypt-master/Output_image/steg.png'
 
 msg = Decode(output_loc)
 B_msg = bytes.fromhex(msg)
